@@ -9,3 +9,6 @@ The purpose of our project is to create and test a solution which:
 To create and verify our approach, we separate the project into 2 parts:
 - /human-verification - contains a desktop application used to take a traffic video as input, allow human labelers to manually count pedestrians every minute, and store the count at the end of each minute. Once the video is over, store the results in a .csv file.
 - /opencv - contains an OpenCV-powered desktop application which automates the pedestrian-counting task in the /human-verification folder
+
+We will be using the traffic junction video sample from idiap.ch for our human verification and initial testing:
+https://www.idiap.ch/~odobez/RESSOURCES/DataRelease-TrafficJunction.php
